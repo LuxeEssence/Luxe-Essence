@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Luxe Essence</title>
+        <link rel="stylessheet" href="style.css">
+        <style>
+             .p {
+                color: goldenrod;
+            }
+            ul{
+                list-style-type: none;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+            }
+            li a {
+            display: block;
+            padding: 8px;
+            text-decoration: none;
+            color:black;
+            }
+            li a:hover {
+                background-color:gold;
+            }
+            .active {
+                background-color:goldenrod;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <body style="background-color: black;"></body>
+        <h1 style="color: goldenrod;">Luxe Essence</h1>
+        <nav>
+            <ul>
+                <li><a class="active" href="Luxe Essence.html">HOME</a></li>
+                <li><a class="active"  href="collection.html">COLLECTION</a></li>
+                <li><a class="active" href="reviews.html">REVIEWS</a></li>
+                <li><a class="active"  href="about us.html">ABOUT US</a></li>
+                 <div class="flexrow">
+        <img id="logo" src="luxe essence logo.jpg" alt="Luxe Essence logo">
+        </div>
+        <div class="flexrow">
+            <div class="box">
+                <img class="top3" src="parfum1.jpg" alt="parfum1">
+                <p style="color: goldenrod;">AKOYA
+                    200 ML
+                </p>
+                <p style="color: goldenrod;">ACTIE!!! NU MAAR VOOR 
+                    $129,95</p>
+            </div> 
+        <div class="box">
+            <img class="top3" src="parfum2.jpg" alt="parfum2">
+            <p style="color: goldenrod;">IMPERIAL VALLEY
+                200 ML
+            </p>
+            <p style="color: goldenrod;">ACTIE!!! NU MAAR VOOR 
+                $129,95</p>
+        </div>
+        <div class="box">
+            <img class="top3" src="parfum3.jpg" alt="parfum3">
+            <p style="color: goldenrod;">LA LUNA
+                200 ML
+            </p>
+            <p style="color: goldenrod;">ACTIE!!! NU MAAR VOOR 
+                $129,95</p>
+        </div>
+    </div>
+            </ul>
+        </nav>           
+    </body>
+</html>
